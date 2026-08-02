@@ -13,6 +13,7 @@ interface Props {
 /** 어업 선택·날짜·지역 + 구분 탭(알약형) 필터 바 — URL 동기화 (fishery-regulation 조회 화면 패턴) */
 export default function FilterBar({ filters, isToday, onChange, onReset }: Props) {
   const grouped = industriesByGroup();
+  const sortedRegions = [...regions].sort((a, b) => a.name.localeCompare(b.name, "ko"));
   return (
     <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-4 space-y-3">
       <div className="flex flex-wrap items-end gap-3">
@@ -56,7 +57,7 @@ export default function FilterBar({ filters, isToday, onChange, onReset }: Props
             className="border border-slate-300 rounded-md px-2.5 py-2 text-sm text-slate-800 bg-white"
           >
             <option value="">전국</option>
-            {regions.map((r) => (
+            {sortedRegions.map((r) => (
               <option key={r.code} value={r.code}>
                 {r.name}
               </option>
