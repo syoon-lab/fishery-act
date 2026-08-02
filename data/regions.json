@@ -1,0 +1,13 @@
+[
+  { "code": "sido:incheon", "name": "인천광역시", "shortName": "인천" },
+  { "code": "sido:gyeonggi", "name": "경기도", "shortName": "경기" },
+  { "code": "sido:chungnam", "name": "충청남도", "shortName": "충남" },
+  { "code": "sido:jeonbuk", "name": "전북특별자치도", "shortName": "전북" },
+  { "code": "sido:jeonnam", "name": "전남광주통합특별시", "shortName": "전남" },
+  { "code": "sido:gyeongnam", "name": "경상남도", "shortName": "경남" },
+  { "code": "sido:busan", "name": "부산광역시", "shortName": "부산" },
+  { "code": "sido:ulsan", "name": "울산광역시", "shortName": "울산" },
+  { "code": "sido:gyeongbuk", "name": "경상북도", "shortName": "경북" },
+  { "code": "sido:gangwon", "name": "강원특별자치도", "shortName": "강원" },
+  { "code": "sido:jeju", "name": "제주특별자치도", "shortName": "제주" }
+]

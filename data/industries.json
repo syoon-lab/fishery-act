@@ -1,0 +1,2886 @@
+{
+  "groupRules": {
+    "offshore": [
+      {
+        "id": "common-offshore/myeolchi-net",
+        "kind": "gearUseBan",
+        "label": "멸치를 포획할 목적의 어망 사용금지",
+        "species": "멸치",
+        "gear": "멸치 목적 어망",
+        "periods": [
+          {
+            "kind": "annual",
+            "start": {
+              "month": 3,
+              "day": 1
+            },
+            "end": {
+              "month": 6,
+              "day": 30
+            }
+          }
+        ],
+        "zoneIds": [
+          "ju6"
+        ],
+        "sourceId": "annex-7",
+        "rawText": "모든 근해어업: 멸치를 포획할 목적의 어망 사용금지, 3월 1일부터 6월 30일까지, 주6)의 해역"
+      },
+      {
+        "id": "common-offshore/saewoo-net",
+        "kind": "gearUseBan",
+        "label": "새우를 포획할 목적의 어망 사용금지",
+        "species": "새우류",
+        "gear": "새우 목적 어망",
+        "periods": [
+          {
+            "kind": "annual",
+            "start": {
+              "month": 7,
+              "day": 1
+            },
+            "end": {
+              "month": 8,
+              "day": 31
+            }
+          }
+        ],
+        "zoneIds": [
+          "ju12",
+          "ju13",
+          "ju14"
+        ],
+        "sourceId": "annex-7",
+        "rawText": "모든 근해어업: 새우를 포획할 목적의 어망 사용금지, 7월 1일부터 8월 31일까지, 주12)·주13)·주14)의 해역"
+      }
+    ],
+    "coastal": [
+      {
+        "id": "common-coastal/myeolchi-net",
+        "kind": "gearUseBan",
+        "label": "멸치를 포획할 목적의 어망 사용금지",
+        "species": "멸치",
+        "gear": "멸치 목적 어망",
+        "periods": [
+          {
+            "kind": "annual",
+            "start": {
+              "month": 3,
+              "day": 1
+            },
+            "end": {
+              "month": 6,
+              "day": 30
+            }
+          }
+        ],
+        "zoneIds": [
+          "ju6"
+        ],
+        "sourceId": "annex-7",
+        "rawText": "모든 연안어업: 멸치를 포획할 목적의 어망 사용금지, 3월 1일부터 6월 30일까지, 주6)의 해역"
+      },
+      {
+        "id": "common-coastal/saewoo-net",
+        "kind": "gearUseBan",
+        "label": "새우를 포획할 목적의 어망 사용금지",
+        "species": "새우류",
+        "gear": "새우 목적 어망",
+        "periods": [
+          {
+            "kind": "annual",
+            "start": {
+              "month": 7,
+              "day": 1
+            },
+            "end": {
+              "month": 8,
+              "day": 31
+            }
+          }
+        ],
+        "zoneIds": [
+          "ju12",
+          "ju13",
+          "ju14"
+        ],
+        "sourceId": "annex-7",
+        "rawText": "모든 연안어업: 새우를 포획할 목적의 어망 사용금지, 7월 1일부터 8월 31일까지, 주12)·주13)·주14)의 해역"
+      }
+    ],
+    "demarcated": [
+      {
+        "id": "common-demarcated/myeolchi-net",
+        "kind": "gearUseBan",
+        "label": "멸치를 포획할 목적의 어망 사용금지",
+        "species": "멸치",
+        "gear": "멸치 목적 어망",
+        "periods": [
+          {
+            "kind": "annual",
+            "start": {
+              "month": 3,
+              "day": 1
+            },
+            "end": {
+              "month": 6,
+              "day": 30
+            }
+          }
+        ],
+        "zoneIds": [
+          "ju6"
+        ],
+        "sourceId": "annex-7",
+        "rawText": "구획어업 중 모든 어업: 멸치를 포획할 목적의 어망 사용금지, 3월 1일부터 6월 30일까지, 주6)의 해역"
+      },
+      {
+        "id": "common-demarcated/saewoo-net",
+        "kind": "gearUseBan",
+        "label": "새우를 포획할 목적의 어망 사용금지",
+        "species": "새우류",
+        "gear": "새우 목적 어망",
+        "periods": [
+          {
+            "kind": "annual",
+            "start": {
+              "month": 7,
+              "day": 1
+            },
+            "end": {
+              "month": 8,
+              "day": 31
+            }
+          }
+        ],
+        "zoneIds": [
+          "ju12",
+          "ju13",
+          "ju14"
+        ],
+        "sourceId": "annex-7",
+        "rawText": "구획어업 중 모든 어업: 새우를 포획할 목적의 어망 사용금지, 7월 1일부터 8월 31일까지, 주12)·주13)·주14)의 해역"
+      },
+      {
+        "id": "common-demarcated/mesh-15",
+        "kind": "meshLimit",
+        "label": "사용금지 그물코의 규격: 15밀리미터 이하",
+        "meshMinMm": 15,
+        "periods": [
+          {
+            "kind": "allYear"
+          }
+        ],
+        "exceptions": [
+          "패류형망어업과 영광군 주목망 장망류어업(25mm)은 별도 규격",
+          "멸치·빙어·보리멸·문절망둑·싱어·반지·밴댕이·황강달어·뱀장어·갯장어·붕장어·젓새우·곤쟁이 포획 목적 세목망은 미적용"
+        ],
+        "sourceId": "annex-8",
+        "rawText": "장망류어업(영광군 주목망)·패류형망어업 외의 구획어업: 15밀리미터 이하 사용금지",
+        "excludeIndustries": [
+          "paeryu-hyeongmang"
+        ]
+      }
+    ]
+  },
+  "industries": [
+    {
+      "id": "oekkeuri-daehyeong",
+      "name": "외끌이대형저인망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 저인망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제1호"
+      },
+      "operationZoneNote": "동해를 제외한 서해와 동중국해 (경남 해안선~동경 128도선 기준 좌표로 획정)",
+      "permitQuota": [
+        {
+          "count": 34,
+          "zoneNote": "서해·동중국해"
+        }
+      ],
+      "rules": [
+        {
+          "id": "oekkeuri-daehyeong/zone",
+          "kind": "zoneLimit",
+          "label": "조업구역: 동해 제외(서해·동중국해)",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "sourceId": "annex-5",
+          "rawText": "경상남도 해안선과 동경 127도 59분 52.21초선의 교점 … 이북의 동해를 제외한 서해와 동중국해"
+        },
+        {
+          "id": "oekkeuri-daehyeong/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 33밀리미터 이하",
+          "meshMinMm": 33,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "자루그물 부분에는 2중 이상 어망 사용금지",
+          "sourceId": "annex-8",
+          "rawText": "외끌이대형저인망어업: 33밀리미터 이하 사용금지, 자루그물 부분에는 2중 이상 어망 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "ssangkkeuri-daehyeong",
+      "name": "쌍끌이대형저인망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "2척의 동력어선으로 저인망을 사용하여 수산동물(멸치는 제외한다)을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제2호"
+      },
+      "targetLimit": {
+        "species": "수산동물 (멸치 제외)",
+        "excludeNote": "멸치는 포획 대상에서 명시적으로 제외",
+        "rawText": "수산동물(멸치는 제외한다)을 포획하는 어업"
+      },
+      "operationZoneNote": "동해를 제외한 서해와 동중국해",
+      "permitQuota": [
+        {
+          "count": 37,
+          "zoneNote": "서해·동중국해"
+        }
+      ],
+      "rules": [
+        {
+          "id": "ssangkkeuri-daehyeong/zone",
+          "kind": "zoneLimit",
+          "label": "조업구역: 동해 제외(서해·동중국해)",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "sourceId": "annex-5",
+          "rawText": "이북의 동해를 제외한 서해와 동중국해. 허가어선 중 1척 침몰 시 복구·건조까지 외끌이 조업 가능(비고)"
+        },
+        {
+          "id": "ssangkkeuri-daehyeong/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 54밀리미터 이하",
+          "meshMinMm": 54,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "자루그물 부분에는 2중 이상 어망 사용금지",
+          "sourceId": "annex-8",
+          "rawText": "쌍끌이대형저인망어업: 54밀리미터 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "donghaegu-oekkeuri",
+      "name": "동해구외끌이중형저인망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 별표 5에 따른 근해어업의 조업구역에서 저인망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제3호"
+      },
+      "operationZoneNote": "경북·울산 경계 방위각 107도 연장선 이북의 해역(동해)",
+      "permitQuota": [
+        {
+          "count": 20,
+          "zoneNote": "방위각 107도선 이북 동해"
+        }
+      ],
+      "rules": [
+        {
+          "id": "donghaegu-oekkeuri/closure-may",
+          "kind": "fullClosure",
+          "label": "조업금지 — 강원·경북 및 방위각 107도선 이북 해역",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 5,
+                "day": 1
+              },
+              "end": {
+                "month": 5,
+                "day": 31
+              }
+            }
+          ],
+          "zoneIds": [
+            "donghae-107-north"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 5월 1일부터 5월 31일까지, 강원특별자치도·경상북도·방위각 107도의 연장선 이북의 해역"
+        },
+        {
+          "id": "donghaegu-oekkeuri/closure-ju1",
+          "kind": "fullClosure",
+          "label": "조업금지 — 주1)의 해역",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju1"
+          ],
+          "note": "주1)의 각 구역은 자체 적용기간(11. 1.~2. 15. / 12. 1.~5. 31. / 5월)이 있음",
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 연중, 주1)의 해역"
+        },
+        {
+          "id": "donghaegu-oekkeuri/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 33밀리미터 이하",
+          "meshMinMm": 33,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "자루그물 부분에는 2중 이상 어망 사용금지",
+          "sourceId": "annex-8",
+          "rawText": "동해구외끌이중형저인망어업: 33밀리미터 이하 사용금지"
+        },
+        {
+          "id": "donghaegu-oekkeuri/zone",
+          "kind": "zoneLimit",
+          "label": "조업구역: 방위각 107도선 이북(동해)",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "sourceId": "annex-5",
+          "rawText": "경상북도와 울산광역시의 경계와 해안선의 교점에서 방위각 107도의 연장선 이북의 해역"
+        }
+      ]
+    },
+    {
+      "id": "seonamhaegu-oekkeuri",
+      "name": "서남해구외끌이중형저인망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 별표 5에 따른 근해어업의 조업구역에서 저인망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제4호"
+      },
+      "operationZoneNote": "방위각 107도 연장선 이남과 이서의 해역(서·남해)",
+      "permitQuota": [
+        {
+          "count": 29,
+          "zoneNote": "방위각 107도선 이남·이서"
+        }
+      ],
+      "rules": [
+        {
+          "id": "seonamhaegu-oekkeuri/closure-ju1",
+          "kind": "fullClosure",
+          "label": "조업금지 — 주1)의 해역",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju1"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 연중, 주1)의 해역"
+        },
+        {
+          "id": "seonamhaegu-oekkeuri/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 33밀리미터 이하",
+          "meshMinMm": 33,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "sourceId": "annex-8",
+          "rawText": "서남해구외끌이중형저인망어업: 33밀리미터 이하 사용금지, 자루그물 2중 이상 금지"
+        },
+        {
+          "id": "seonamhaegu-oekkeuri/zone",
+          "kind": "zoneLimit",
+          "label": "조업구역: 방위각 107도선 이남·이서",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "sourceId": "annex-5",
+          "rawText": "경상북도와 울산광역시의 경계와 해안선의 교점에서 방위각 107도의 연장선 이남과 이서의 해역"
+        }
+      ]
+    },
+    {
+      "id": "seonamhaegu-ssangkkeuri",
+      "name": "서남해구쌍끌이중형저인망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "2척의 동력어선으로 별표 5에 따른 근해어업의 조업구역에서 저인망을 사용하여 수산동물(멸치는 제외한다)을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제5호"
+      },
+      "targetLimit": {
+        "species": "수산동물 (멸치 제외)",
+        "excludeNote": "멸치는 포획 대상에서 명시적으로 제외",
+        "rawText": "수산동물(멸치는 제외한다)을 포획하는 어업"
+      },
+      "operationZoneNote": "방위각 107도 연장선 이남과 이서의 해역",
+      "permitQuota": [
+        {
+          "count": 7,
+          "zoneNote": "방위각 107도선 이남·이서"
+        }
+      ],
+      "rules": [
+        {
+          "id": "seonamhaegu-ssangkkeuri/closure-ju1",
+          "kind": "fullClosure",
+          "label": "조업금지 — 주1)의 해역",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju1"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 연중, 주1)의 해역"
+        },
+        {
+          "id": "seonamhaegu-ssangkkeuri/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 33밀리미터 이하",
+          "meshMinMm": 33,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "sourceId": "annex-8",
+          "rawText": "서남해구쌍끌이중형저인망어업: 33밀리미터 이하 사용금지"
+        },
+        {
+          "id": "seonamhaegu-ssangkkeuri/zone",
+          "kind": "zoneLimit",
+          "label": "조업구역: 방위각 107도선 이남·이서",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "sourceId": "annex-5",
+          "rawText": "방위각 107도의 연장선 이남과 이서의 해역"
+        }
+      ]
+    },
+    {
+      "id": "daehyeong-teurol",
+      "name": "대형트롤어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 망구전개판을 장치한 인망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제6호"
+      },
+      "operationZoneNote": "전국 근해 (단, 동경 128도 이동 수역 조업금지는 허가의 제한·조건으로 부과)",
+      "permitQuota": [
+        {
+          "count": 34,
+          "zoneNote": "전국 근해"
+        }
+      ],
+      "note": "10. 1.~다음 해 1. 31. 사이 허가 제한·조건(법 제44조) 위반 조업은 어업정지 처분을 과징금으로 갈음할 수 없음(시행령 제69조제2항제1호)",
+      "rules": [
+        {
+          "id": "daehyeong-teurol/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 54밀리미터 이하",
+          "meshMinMm": 54,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "자루그물 부분에는 2중 이상 어망 사용금지",
+          "sourceId": "annex-8",
+          "rawText": "대형트롤어업: 54밀리미터 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "donghaegu-teurol",
+      "name": "동해구중형트롤어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 별표 5에 따른 근해어업의 조업구역에서 망구전개판을 장치한 인망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제7호"
+      },
+      "operationZoneNote": "방위각 107도 연장선 이북의 해역(동해)",
+      "permitQuota": [
+        {
+          "count": 23,
+          "zoneNote": "방위각 107도선 이북 동해"
+        }
+      ],
+      "rules": [
+        {
+          "id": "donghaegu-teurol/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 43밀리미터 이하",
+          "meshMinMm": 43,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "자루그물 부분에는 2중 이상 어망 사용금지",
+          "sourceId": "annex-8",
+          "rawText": "동해구중형트롤어업: 43밀리미터 이하 사용금지"
+        },
+        {
+          "id": "donghaegu-teurol/zone",
+          "kind": "zoneLimit",
+          "label": "조업구역: 방위각 107도선 이북(동해)",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "sourceId": "annex-5",
+          "rawText": "경상북도와 울산광역시의 경계와 해안선의 교점에서 방위각 107도의 연장선 이북의 해역"
+        }
+      ]
+    },
+    {
+      "id": "daehyeong-seonmang",
+      "name": "대형선망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "총톤수 50톤 이상인 1척의 동력어선으로 선망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제8호"
+      },
+      "operationZoneNote": "전국 근해",
+      "permitQuota": [
+        {
+          "count": 25,
+          "zoneNote": "전국 근해"
+        }
+      ],
+      "rules": [
+        {
+          "id": "daehyeong-seonmang/light",
+          "kind": "lightBan",
+          "label": "불빛이용금지",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju2",
+            "chuja-geomun-7400"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "불빛이용금지, 연중, 주2)의 해역 및 추자도·거문도 주위 7천4백미터 이내의 해역"
+        },
+        {
+          "id": "daehyeong-seonmang/samchi",
+          "kind": "speciesCaptureBan",
+          "label": "삼치포획금지",
+          "species": "삼치",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 12,
+                "day": 1
+              },
+              "end": {
+                "month": 2,
+                "day": 29
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju3"
+          ],
+          "note": "종료일은 2월 말일",
+          "sourceId": "annex-7",
+          "rawText": "삼치포획금지, 12월 1일부터 다음 해 2월 말일까지, 주3)의 해역"
+        },
+        {
+          "id": "daehyeong-seonmang/myeolchi-allyear",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주4)·주5)·주6)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju4",
+            "ju5",
+            "ju6"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 연중, 주4)·주5)·주6)의 해역"
+        },
+        {
+          "id": "daehyeong-seonmang/myeolchi-spring",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주7)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 4,
+                "day": 1
+              },
+              "end": {
+                "month": 6,
+                "day": 30
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju7"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 4월 1일부터 6월 30일까지, 주7)의 해역"
+        },
+        {
+          "id": "daehyeong-seonmang/closure",
+          "kind": "fullClosure",
+          "label": "조업금지 — 제주 본도 주위 7천4백미터 이내·주15)·주16)의 해역",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "jeju-7400",
+            "ju15",
+            "ju16"
+          ],
+          "exceptions": [
+            "주15)를 제외한 제주특별자치도 본도로부터 2천7백미터 외측 해역에서 7. 1.~8. 31. 불빛을 이용하지 않고 전갱이를 포획할 목적으로 조업하는 경우는 제외",
+            "같은 해역에서 9. 1.~다음 해 1. 31. 불빛을 이용하지 않고 고등어를 포획할 목적으로 조업하는 경우는 제외"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 연중, 제주 본도 주위 7,400m 이내·주15)·주16)의 해역"
+        },
+        {
+          "id": "daehyeong-seonmang/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 30밀리미터 이하",
+          "meshMinMm": 30,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "sourceId": "annex-8",
+          "rawText": "대형선망어업: 30밀리미터 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "sohyeong-seonmang",
+      "name": "소형선망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "총톤수 30톤 미만인 1척의 동력어선으로 선망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제9호"
+      },
+      "operationZoneNote": "전국 근해",
+      "permitQuota": [
+        {
+          "count": 35,
+          "zoneNote": "전국 근해"
+        }
+      ],
+      "rules": [
+        {
+          "id": "sohyeong-seonmang/light",
+          "kind": "lightBan",
+          "label": "불빛이용금지",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju2",
+            "chuja-geomun-7400"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "불빛이용금지, 연중, 주2)의 해역 및 추자도·거문도 주위 7,400m 이내의 해역"
+        },
+        {
+          "id": "sohyeong-seonmang/samchi",
+          "kind": "speciesCaptureBan",
+          "label": "삼치포획금지",
+          "species": "삼치",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 12,
+                "day": 1
+              },
+              "end": {
+                "month": 2,
+                "day": 29
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju3"
+          ],
+          "note": "종료일은 2월 말일",
+          "sourceId": "annex-7",
+          "rawText": "삼치포획금지, 12월 1일부터 다음 해 2월 말일까지, 주3)의 해역"
+        },
+        {
+          "id": "sohyeong-seonmang/myeolchi-allyear",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주4)·주5)·주6)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju4",
+            "ju5",
+            "ju6"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 연중, 주4)·주5)·주6)의 해역"
+        },
+        {
+          "id": "sohyeong-seonmang/myeolchi-spring",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주7)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 4,
+                "day": 1
+              },
+              "end": {
+                "month": 6,
+                "day": 30
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju7"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 4월 1일부터 6월 30일까지, 주7)의 해역"
+        },
+        {
+          "id": "sohyeong-seonmang/closure",
+          "kind": "fullClosure",
+          "label": "조업금지 — 제주 본도 주위 7천4백미터 이내·주15)·주16)의 해역",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "jeju-7400",
+            "ju15",
+            "ju16"
+          ],
+          "exceptions": [
+            "주15)를 제외한 제주특별자치도 본도로부터 2천7백미터 외측 해역에서 7. 1.~8. 31. 불빛을 이용하지 않고 전갱이를 포획할 목적으로 조업하는 경우는 제외",
+            "같은 해역에서 9. 1.~다음 해 1. 31. 불빛을 이용하지 않고 고등어를 포획할 목적으로 조업하는 경우는 제외"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 연중, 제주 본도 주위 7,400m 이내·주15)·주16)의 해역"
+        },
+        {
+          "id": "sohyeong-seonmang/semokmang",
+          "kind": "gearUseBan",
+          "label": "세목망으로 된 어망 사용금지",
+          "gear": "세목망",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 5,
+                "day": 16
+              },
+              "end": {
+                "month": 6,
+                "day": 15
+              }
+            }
+          ],
+          "regionVariants": [
+            {
+              "sidos": [
+                "sido:incheon",
+                "sido:gyeonggi",
+                "sido:chungnam",
+                "sido:jeonbuk",
+                "sido:jeonnam"
+              ],
+              "periods": [
+                {
+                  "kind": "annual",
+                  "start": {
+                    "month": 7,
+                    "day": 1
+                  },
+                  "end": {
+                    "month": 7,
+                    "day": 31
+                  }
+                }
+              ],
+              "note": "전남광주통합특별시는 영광군·신안군만 해당"
+            }
+          ],
+          "sourceId": "annex-7",
+          "rawText": "세목망으로 된 어망 사용금지, 5월 16일부터 6월 15일까지. 다만, 인천·경기·충남·전북·영광·신안은 7월 1일부터 7월 31일까지"
+        },
+        {
+          "id": "sohyeong-seonmang/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 30밀리미터 이하",
+          "meshMinMm": 30,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "exceptions": [
+            "멸치 포획 목적 세목망은 미적용"
+          ],
+          "sourceId": "annex-8",
+          "rawText": "소형선망어업: 30밀리미터 이하 사용금지, 멸치 목적 세목망은 규격 미적용"
+        }
+      ]
+    },
+    {
+      "id": "geunhae-chaenakki",
+      "name": "근해채낚기어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 외줄낚시 또는 채낚기로 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제10호"
+      },
+      "operationZoneNote": "전국 근해",
+      "permitQuota": [
+        {
+          "count": 588,
+          "zoneNote": "전국 근해"
+        }
+      ],
+      "rules": [
+        {
+          "id": "geunhae-chaenakki/closure-1",
+          "kind": "fullClosure",
+          "label": "조업금지 — 울산·강원·경북 육지로부터 5천5백미터 이내",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 1,
+                "day": 1
+              },
+              "end": {
+                "month": 8,
+                "day": 31
+              }
+            }
+          ],
+          "zoneIds": [
+            "donghae-5500"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 1월 1일부터 8월 31일까지, 울산·강원·경북 육지로부터 5,500m 이내의 해역"
+        },
+        {
+          "id": "geunhae-chaenakki/closure-2",
+          "kind": "fullClosure",
+          "label": "조업금지 — 울산·강원·경북 육지로부터 2천7백미터 이내",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 9,
+                "day": 1
+              },
+              "end": {
+                "month": 12,
+                "day": 31
+              }
+            }
+          ],
+          "zoneIds": [
+            "donghae-2700"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 9월 1일부터 12월 31일까지, 울산·강원·경북 육지로부터 2,700m 이내의 해역"
+        }
+      ]
+    },
+    {
+      "id": "geunhae-jamang",
+      "name": "근해자망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 유자망 또는 고정자망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제11호"
+      },
+      "operationZoneNote": "전국 근해",
+      "permitQuota": [
+        {
+          "count": 569,
+          "zoneNote": "전국 근해"
+        }
+      ],
+      "note": "어구실명제 대상 어업(시행령 제46조)",
+      "rules": [
+        {
+          "id": "geunhae-jamang/myeolchi",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주8)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 4,
+                "day": 1
+              },
+              "end": {
+                "month": 6,
+                "day": 30
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju8"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 4월 1일부터 6월 30일까지, 주8)의 해역"
+        },
+        {
+          "id": "geunhae-jamang/squid",
+          "kind": "speciesCaptureBan",
+          "label": "살오징어포획금지",
+          "species": "살오징어",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "donghae-squid"
+          ],
+          "exceptions": [
+            "부산광역시장·울산광역시장·경상북도지사 또는 경상남도지사로부터 근해자망어업허가를 받은 경우에는 금지해역을 동해 전 해역과 동경 129도선 기준 동쪽의 남해 해역으로 한다"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "살오징어포획금지, 연중, 동해 전 해역과 동경 128도30분선 기준 동쪽의 남해 해역"
+        },
+        {
+          "id": "geunhae-jamang/ppeotchim",
+          "kind": "gearFormBan",
+          "label": "뻗침대를 붙인 자망 사용금지",
+          "gear": "뻗침대 자망",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ppeotchimdae-nationwide"
+          ],
+          "exceptions": [
+            "인천·경기 해역 중 주17) 바깥쪽 해역과 전남광주통합특별시 해역은 제외"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "뻗침대를 붙인 자망 사용금지, 연중, 인천·경기 해역 중 주17) 바깥쪽 해역과 전남 해역을 제외한 전국 해역"
+        },
+        {
+          "id": "geunhae-jamang/ppeotchim-semokmang",
+          "kind": "gearFormBan",
+          "label": "뻗침대를 붙인 자망에 세목망으로 된 어망 사용금지",
+          "gear": "뻗침대 자망(세목망)",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 1,
+                "day": 1
+              },
+              "end": {
+                "month": 8,
+                "day": 31
+              }
+            }
+          ],
+          "regionVariants": [
+            {
+              "sidos": [
+                "sido:jeonnam"
+              ],
+              "periods": [
+                {
+                  "kind": "annual",
+                  "start": {
+                    "month": 8,
+                    "day": 1
+                  },
+                  "end": {
+                    "month": 8,
+                    "day": 31
+                  }
+                }
+              ]
+            }
+          ],
+          "note": "기본 기간(1. 1.~8. 31.)은 인천·경기 주17) 바깥쪽 해역 기준",
+          "sourceId": "annex-7",
+          "rawText": "뻗침대를 붙인 자망에 세목망으로 된 어망 사용금지: 인천·경기 주17) 바깥쪽 1월 1일~8월 31일, 전남 해역 8월 1일~8월 31일",
+          "sidos": [
+            "sido:incheon",
+            "sido:gyeonggi",
+            "sido:jeonnam"
+          ]
+        },
+        {
+          "id": "geunhae-jamang/semokmang",
+          "kind": "gearUseBan",
+          "label": "세목망으로 된 어망 사용금지",
+          "gear": "세목망",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 5,
+                "day": 16
+              },
+              "end": {
+                "month": 6,
+                "day": 15
+              }
+            }
+          ],
+          "regionVariants": [
+            {
+              "sidos": [
+                "sido:incheon",
+                "sido:gyeonggi",
+                "sido:chungnam",
+                "sido:jeonbuk",
+                "sido:jeonnam"
+              ],
+              "periods": [
+                {
+                  "kind": "annual",
+                  "start": {
+                    "month": 7,
+                    "day": 1
+                  },
+                  "end": {
+                    "month": 7,
+                    "day": 31
+                  }
+                }
+              ],
+              "note": "전남은 영광군·신안군만. 전남 해역에서 뻗침대+세목망은 이 금지기간 미적용"
+            }
+          ],
+          "sourceId": "annex-7",
+          "rawText": "세목망으로 된 어망 사용금지, 5월 16일부터 6월 15일까지. 서해안 5개 시·도는 7월"
+        },
+        {
+          "id": "geunhae-jamang/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 삼치 100밀리미터·조기류 50밀리미터·대게 240밀리미터 이하",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "2중 이상 자망 중 내망 그물코 40mm 이하 사용금지",
+          "exceptions": [
+            "멸치·젓새우·곤쟁이 포획 목적 세목망은 미적용"
+          ],
+          "sourceId": "annex-8",
+          "rawText": "근해자망어업: 삼치 100mm, 조기류 50mm, 대게 240mm 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "geunhae-anggangmang",
+      "name": "근해안강망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 안강망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제12호"
+      },
+      "operationZoneNote": "전국 근해",
+      "permitQuota": [
+        {
+          "count": 199,
+          "zoneNote": "전국 근해"
+        }
+      ],
+      "note": "어구실명제 대상 어업(시행령 제46조)",
+      "rules": [
+        {
+          "id": "geunhae-anggangmang/semokmang",
+          "kind": "gearUseBan",
+          "label": "세목망으로 된 어망 사용금지",
+          "gear": "세목망",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 5,
+                "day": 16
+              },
+              "end": {
+                "month": 6,
+                "day": 15
+              }
+            }
+          ],
+          "regionVariants": [
+            {
+              "sidos": [
+                "sido:incheon",
+                "sido:gyeonggi",
+                "sido:chungnam",
+                "sido:jeonbuk",
+                "sido:jeonnam"
+              ],
+              "periods": [
+                {
+                  "kind": "annual",
+                  "start": {
+                    "month": 2,
+                    "day": 1
+                  },
+                  "end": {
+                    "month": 2,
+                    "day": 29
+                  }
+                },
+                {
+                  "kind": "annual",
+                  "start": {
+                    "month": 7,
+                    "day": 1
+                  },
+                  "end": {
+                    "month": 7,
+                    "day": 31
+                  }
+                }
+              ],
+              "note": "전남은 영광군·신안군만 해당. 2월 금지의 종료일은 2월 말일"
+            }
+          ],
+          "sourceId": "annex-7",
+          "rawText": "세목망으로 된 어망 사용금지, 5월 16일부터 6월 15일까지. 다만, 서해안 5개 시·도는 2월 1일~2월 말일 및 7월 1일~7월 31일"
+        },
+        {
+          "id": "geunhae-anggangmang/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 35밀리미터 이하",
+          "meshMinMm": 35,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "자루그물 부분에는 2중 이상 어망 사용금지",
+          "exceptions": [
+            "멸치·반지·밴댕이·뱀장어·곤쟁이·까나리·베도라치·새우류·꼴뚜기·주꾸미 포획 목적 세목망은 미적용"
+          ],
+          "sourceId": "annex-8",
+          "rawText": "근해안강망어업: 35밀리미터 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "geunhae-bongsumang",
+      "name": "근해봉수망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 봉수망·초망 또는 들망(자리돔들망은 제외한다)을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제13호"
+      },
+      "operationZoneNote": "전국 근해",
+      "permitQuota": [
+        {
+          "count": 38,
+          "zoneNote": "전국 근해"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "id": "geunhae-jaridom-deulmang",
+      "name": "근해자리돔들망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 자리돔들망을 사용하여 자리돔을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제14호"
+      },
+      "targetLimit": {
+        "species": "자리돔",
+        "rawText": "자리돔들망을 사용하여 자리돔을 포획하는 어업"
+      },
+      "operationZoneNote": "제주특별자치도 연해",
+      "permitQuota": [
+        {
+          "count": 3,
+          "zoneNote": "제주 연해"
+        }
+      ],
+      "rules": [
+        {
+          "id": "geunhae-jaridom-deulmang/myeolchi-allyear",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주6)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju6"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 연중, 주6)의 해역"
+        },
+        {
+          "id": "geunhae-jaridom-deulmang/myeolchi-spring",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주9)를 제외한 주7)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 4,
+                "day": 1
+              },
+              "end": {
+                "month": 6,
+                "day": 30
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju7"
+          ],
+          "exceptions": [
+            "주9)의 해역은 제외"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 4월 1일부터 6월 30일까지, 주9)의 해역을 제외한 주7)의 해역"
+        },
+        {
+          "id": "geunhae-jaridom-deulmang/zone",
+          "kind": "zoneLimit",
+          "label": "조업구역: 제주 연해",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "sourceId": "annex-5",
+          "rawText": "제주특별자치도 연해"
+        }
+      ]
+    },
+    {
+      "id": "geunhae-jangeo-tongbal",
+      "name": "근해장어통발어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 장어통발을 사용하여 장어류를 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제15호"
+      },
+      "targetLimit": {
+        "species": "장어류",
+        "rawText": "장어통발을 사용하여 장어류를 포획하는 어업"
+      },
+      "operationZoneNote": "전국 근해",
+      "permitQuota": [
+        {
+          "count": 36,
+          "zoneNote": "전국 근해"
+        }
+      ],
+      "note": "통발은 어구보증금 부과 대상(시행령 제49조의2)",
+      "rules": [
+        {
+          "id": "geunhae-jangeo-tongbal/ge-tongbal",
+          "kind": "gearUseBan",
+          "label": "게를 포획할 목적으로 통발 사용금지",
+          "species": "게",
+          "gear": "통발(게 목적)",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 5,
+                "day": 1
+              },
+              "end": {
+                "month": 7,
+                "day": 31
+              }
+            },
+            {
+              "kind": "annual",
+              "start": {
+                "month": 10,
+                "day": 31
+              },
+              "end": {
+                "month": 12,
+                "day": 31
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju10"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "게를 포획할 목적으로 통발 사용금지, 5. 1.~7. 31., 10. 31.~12. 31.(대게는 연중), 주10)의 해역"
+        },
+        {
+          "id": "geunhae-jangeo-tongbal/ge-tongbal-daege",
+          "kind": "gearUseBan",
+          "label": "게를 포획할 목적으로 통발 사용금지 — 대게의 경우는 연중",
+          "species": "대게",
+          "gear": "통발(대게 목적)",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju10"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "게를 포획할 목적으로 통발 사용금지 … 다만, 대게의 경우는 연중으로 한다. 주10)의 해역"
+        },
+        {
+          "id": "geunhae-jangeo-tongbal/daege",
+          "kind": "speciesCaptureBan",
+          "label": "대게포획금지·대게류·붉은대게류 통발 사용금지",
+          "species": "대게",
+          "gear": "대게류·붉은대게류 통발",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju11"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "대게포획금지, 대게류·붉은대게류 통발 사용금지, 연중, 주11)의 해역"
+        },
+        {
+          "id": "geunhae-jangeo-tongbal/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 35밀리미터 이하",
+          "meshMinMm": 35,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "exceptions": [
+            "플라스틱 재질로 제작한 그물코가 없는 통발은 제외"
+          ],
+          "sourceId": "annex-8",
+          "rawText": "근해장어통발어업: 35밀리미터 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "geunhae-muneo-danji",
+      "name": "근해문어단지어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 문어단지를 사용하여 문어류를 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제16호"
+      },
+      "targetLimit": {
+        "species": "문어류",
+        "rawText": "문어단지를 사용하여 문어류를 포획하는 어업"
+      },
+      "operationZoneNote": "전국 근해",
+      "permitQuota": [
+        {
+          "count": 32,
+          "zoneNote": "전국 근해"
+        }
+      ],
+      "rules": [
+        {
+          "id": "geunhae-muneo-danji/closure-jeju",
+          "kind": "fullClosure",
+          "label": "조업금지 — 제주 본도 주위 마을어업·협동양식어업 구역 이내",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "jeju-village"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 연중, 제주특별자치도 본도의 주위 마을어업 및 협동양식어업 구역 이내의 해역"
+        }
+      ]
+    },
+    {
+      "id": "geunhae-tongbal",
+      "name": "근해통발어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 통발(장어통발과 문어단지는 제외한다)을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제17호"
+      },
+      "operationZoneNote": "전국 근해",
+      "permitQuota": [
+        {
+          "count": 159,
+          "zoneNote": "전국 근해"
+        }
+      ],
+      "note": "어구실명제·어구보증금 대상 어업",
+      "rules": [
+        {
+          "id": "geunhae-tongbal/ge-tongbal",
+          "kind": "gearUseBan",
+          "label": "게를 포획할 목적으로 통발 사용금지",
+          "species": "게",
+          "gear": "통발(게 목적)",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 5,
+                "day": 1
+              },
+              "end": {
+                "month": 7,
+                "day": 31
+              }
+            },
+            {
+              "kind": "annual",
+              "start": {
+                "month": 10,
+                "day": 31
+              },
+              "end": {
+                "month": 12,
+                "day": 31
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju10"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "게를 포획할 목적으로 통발 사용금지, 5. 1.~7. 31., 10. 31.~12. 31.(대게는 연중), 주10)의 해역"
+        },
+        {
+          "id": "geunhae-tongbal/ge-tongbal-daege",
+          "kind": "gearUseBan",
+          "label": "게를 포획할 목적으로 통발 사용금지 — 대게의 경우는 연중",
+          "species": "대게",
+          "gear": "통발(대게 목적)",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju10"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "게를 포획할 목적으로 통발 사용금지 … 다만, 대게의 경우는 연중으로 한다. 주10)의 해역"
+        },
+        {
+          "id": "geunhae-tongbal/daege",
+          "kind": "speciesCaptureBan",
+          "label": "대게포획금지·대게류·붉은대게류 통발 사용금지",
+          "species": "대게",
+          "gear": "대게류·붉은대게류 통발",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju11"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "대게포획금지, 대게류·붉은대게류 통발 사용금지, 연중, 주11)의 해역"
+        },
+        {
+          "id": "geunhae-tongbal/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 대게 150밀리미터·붉은대게 125밀리미터·그 밖의 어종 35밀리미터 이하",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "붉은대게 규격은 방위각 107도선 이북 동해 한정. 통발 입구 깔때기 그물에는 미적용",
+          "sourceId": "annex-8",
+          "rawText": "근해통발어업: 대게 150mm, 붉은대게 125mm(동해 한정), 그 밖의 어종 35mm 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "geunhae-yeonseung",
+      "name": "근해연승어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 주낙을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제18호"
+      },
+      "operationZoneNote": "전국 근해",
+      "permitQuota": [
+        {
+          "count": 456,
+          "zoneNote": "전국 근해"
+        }
+      ],
+      "rules": []
+    },
+    {
+      "id": "geunhae-hyeongmang",
+      "name": "근해형망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선으로 형망을 사용하여 패류를 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제19호"
+      },
+      "targetLimit": {
+        "species": "패류",
+        "rawText": "형망을 사용하여 패류를 포획하는 어업"
+      },
+      "bycatch": {
+        "allowed": true,
+        "allowedPercent": 10,
+        "rawText": "혼획 허용 수산동물: 그 밖의 수산동물, 허용 범위: 총어획량의 10퍼센트 이내 (별표 3)"
+      },
+      "operationZoneNote": "인천·경기·충남 연해(55건), 전북 연해(17건)",
+      "permitQuota": [
+        {
+          "count": 55,
+          "zoneNote": "인천광역시·경기도 및 충청남도 연해"
+        },
+        {
+          "count": 17,
+          "zoneNote": "전북특별자치도 연해"
+        }
+      ],
+      "rules": [
+        {
+          "id": "geunhae-hyeongmang/hyeongmang-ban",
+          "kind": "gearUseBan",
+          "label": "형망 사용금지",
+          "gear": "형망",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 6,
+                "day": 1
+              },
+              "end": {
+                "month": 7,
+                "day": 31
+              }
+            }
+          ],
+          "exceptions": [
+            "법 제27조에 따라 관리선으로 지정·승인받은 어선이 해당 어장에서 사용하는 형망은 제외"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "형망 사용금지, 6월 1일부터 7월 31일까지"
+        },
+        {
+          "id": "geunhae-hyeongmang/zone",
+          "kind": "zoneLimit",
+          "label": "조업구역: 서해 연해(인천·경기·충남·전북)",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "sourceId": "annex-5",
+          "rawText": "인천광역시·경기도 및 충청남도 연해 55건, 전북특별자치도 연해 17건"
+        }
+      ]
+    },
+    {
+      "id": "giseon-gwonhyeonmang",
+      "name": "기선권현망어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "2척의 동력어선으로 인망(저인망은 제외한다)을 사용하여 멸치를 포획하는 어업",
+        "articleRef": "시행령 제21조제1항제20호"
+      },
+      "targetLimit": {
+        "species": "멸치",
+        "rawText": "인망(저인망은 제외한다)을 사용하여 멸치를 포획하는 어업"
+      },
+      "operationZoneNote": "방위각 107도선 이남~경남·전남 경계(54건), 전남광주통합특별시 해역(14건)",
+      "permitQuota": [
+        {
+          "count": 54,
+          "zoneNote": "방위각 107도선 이남~경남·전남 도 경계선 사이의 해역"
+        },
+        {
+          "count": 14,
+          "zoneNote": "전남광주통합특별시의 해역"
+        }
+      ],
+      "rules": [
+        {
+          "id": "giseon-gwonhyeonmang/myeolchi-spring",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주7)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 4,
+                "day": 1
+              },
+              "end": {
+                "month": 6,
+                "day": 30
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju7"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 4월 1일부터 6월 30일까지, 주7)의 해역"
+        },
+        {
+          "id": "giseon-gwonhyeonmang/night",
+          "kind": "gearUseBan",
+          "label": "기선권현망 사용금지",
+          "gear": "기선권현망",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "timeOfDay": {
+            "from": "21:30",
+            "to": "04:30"
+          },
+          "zoneIds": [
+            "ju7"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "기선권현망 사용금지, 연중 21시 30분부터 다음날 04시 30분까지, 주7)의 해역"
+        },
+        {
+          "id": "giseon-gwonhyeonmang/method",
+          "kind": "methodBan",
+          "label": "저층 예망 금지",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "중층 또는 표층만 예망 가능 (저인망화 방지)",
+          "sourceId": "annex-2",
+          "rawText": "일정한 거리를 유지하면서 중층 또는 표층을 예망(저층을 예망해서는 안 된다)한다"
+        },
+        {
+          "id": "giseon-gwonhyeonmang/zone",
+          "kind": "zoneLimit",
+          "label": "조업구역: 남해(경남·전남)",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "sourceId": "annex-5",
+          "rawText": "방위각 107도의 연장선 이남에서 경상남도와 전남광주통합특별시의 도 경계선 사이의 해역 / 전남광주통합특별시의 해역"
+        }
+      ]
+    },
+    {
+      "id": "jamsugi",
+      "name": "잠수기어업",
+      "group": "offshore",
+      "definition": {
+        "rawText": "1척의 동력어선에 잠수기를 설치하여 패류 등의 정착성수산동물을 포획·채취하는 어업",
+        "articleRef": "시행령 제21조제1항제21호"
+      },
+      "targetLimit": {
+        "species": "패류 등 정착성수산동물",
+        "rawText": "잠수기를 설치하여 패류 등의 정착성수산동물을 포획·채취하는 어업"
+      },
+      "operationZoneNote": "권역별 허가: 강원 6, 경북 9, 부산·울산·경남 93, 전남 39, 인천·경기·충남·전북 28. 전남·경남 경계(섬진강 하구~여수 일대)에 공동조업구역 및 구역별 조업척수 제한",
+      "permitQuota": [
+        {
+          "count": 6,
+          "zoneNote": "강원특별자치도 연해"
+        },
+        {
+          "count": 9,
+          "zoneNote": "경상북도 연해"
+        },
+        {
+          "count": 93,
+          "zoneNote": "부산·울산·경남 연해"
+        },
+        {
+          "count": 39,
+          "zoneNote": "전남광주통합특별시 연해"
+        },
+        {
+          "count": 28,
+          "zoneNote": "인천·경기·충남·전북 연해"
+        }
+      ],
+      "rules": [
+        {
+          "id": "jamsugi/zone",
+          "kind": "zoneLimit",
+          "label": "조업구역: 권역별 연해 + 공동조업구역 척수 제한",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "공동조업구역(별표 5 비고 2)에서는 구역별로 지정 척수까지만 조업 가능",
+          "sourceId": "annex-5",
+          "rawText": "잠수기어업 권역별 허가정수 및 전남·경남·부산 공동조업구역 조업척수 제한 (부도 참조)"
+        }
+      ]
+    },
+    {
+      "id": "yeonan-gaeryang-anggangmang",
+      "name": "연안개량안강망어업",
+      "group": "coastal",
+      "definition": {
+        "rawText": "1척의 동력어선으로 안강망류 어망(주목망을 포함한다)을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제22조제1항제1호"
+      },
+      "note": "어구실명제 대상 어업(시행령 제46조)",
+      "rules": [
+        {
+          "id": "yeonan-gaeryang-anggangmang/closure",
+          "kind": "fullClosure",
+          "label": "조업금지",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 5,
+                "day": 16
+              },
+              "end": {
+                "month": 6,
+                "day": 15
+              }
+            }
+          ],
+          "regionVariants": [
+            {
+              "sidos": [
+                "sido:incheon",
+                "sido:gyeonggi",
+                "sido:chungnam",
+                "sido:jeonbuk",
+                "sido:jeonnam"
+              ],
+              "periods": [
+                {
+                  "kind": "annual",
+                  "start": {
+                    "month": 7,
+                    "day": 1
+                  },
+                  "end": {
+                    "month": 7,
+                    "day": 31
+                  }
+                }
+              ],
+              "note": "전남은 영광군·신안군만 해당"
+            }
+          ],
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 5월 16일부터 6월 15일까지. 다만, 인천·경기·충남·전북·영광·신안은 7월 1일부터 7월 31일까지"
+        },
+        {
+          "id": "yeonan-gaeryang-anggangmang/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 25밀리미터 이하",
+          "meshMinMm": 25,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "연안안강망·연안낭장망은 제외. 자루그물 부분 2중 이상 금지",
+          "sourceId": "annex-8",
+          "rawText": "연안개량안강망어업: 25밀리미터 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "yeonan-seonmang",
+      "name": "연안선망어업",
+      "group": "coastal",
+      "definition": {
+        "rawText": "1척의 무동력어선 또는 동력어선으로 선망 또는 양조망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제22조제1항제2호"
+      },
+      "rules": [
+        {
+          "id": "yeonan-seonmang/taean-myeolchi",
+          "kind": "gearUseBan",
+          "label": "멸치를 포획할 목적의 어망사용금지(충청남도 연안선망으로 한정)",
+          "species": "멸치",
+          "gear": "멸치 목적 어망",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "taean-55"
+          ],
+          "exceptions": [
+            "천수만 내측 외의 수역은 8. 1.~8. 20. 제외"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치를 포획할 목적의 어망사용금지(충청남도 연안선망으로 한정), 연중, 태안군 육지로부터 5.5km 이내의 해역",
+          "sidos": [
+            "sido:chungnam"
+          ]
+        },
+        {
+          "id": "yeonan-seonmang/light",
+          "kind": "lightBan",
+          "label": "불빛이용금지",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju2",
+            "jeju-7400",
+            "chuja-geomun-7400"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "불빛이용금지, 연중, 주2)의 해역 및 제주 본도·추자도·거문도 주위 7,400m 이내의 해역"
+        },
+        {
+          "id": "yeonan-seonmang/semokmang",
+          "kind": "gearUseBan",
+          "label": "세목망으로 된 어망 사용금지",
+          "gear": "세목망",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 5,
+                "day": 16
+              },
+              "end": {
+                "month": 6,
+                "day": 15
+              }
+            }
+          ],
+          "regionVariants": [
+            {
+              "sidos": [
+                "sido:incheon",
+                "sido:gyeonggi",
+                "sido:chungnam",
+                "sido:jeonbuk",
+                "sido:jeonnam"
+              ],
+              "periods": [
+                {
+                  "kind": "annual",
+                  "start": {
+                    "month": 7,
+                    "day": 1
+                  },
+                  "end": {
+                    "month": 7,
+                    "day": 31
+                  }
+                }
+              ],
+              "note": "전남은 영광군·신안군만 해당"
+            }
+          ],
+          "sourceId": "annex-7",
+          "rawText": "세목망으로 된 어망 사용금지, 5월 16일부터 6월 15일까지 (서해안 5개 시·도는 7월)"
+        },
+        {
+          "id": "yeonan-seonmang/samchi",
+          "kind": "speciesCaptureBan",
+          "label": "삼치포획금지",
+          "species": "삼치",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 12,
+                "day": 1
+              },
+              "end": {
+                "month": 2,
+                "day": 29
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju3"
+          ],
+          "note": "종료일은 2월 말일",
+          "sourceId": "annex-7",
+          "rawText": "삼치포획금지, 12월 1일부터 다음 해 2월 말일까지, 주3)의 해역"
+        },
+        {
+          "id": "yeonan-seonmang/myeolchi-allyear",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주5)·주6)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju5",
+            "ju6"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 연중, 주5)·주6)의 해역"
+        },
+        {
+          "id": "yeonan-seonmang/myeolchi-spring",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주7)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 4,
+                "day": 1
+              },
+              "end": {
+                "month": 6,
+                "day": 30
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju7"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 4월 1일부터 6월 30일까지, 주7)의 해역"
+        },
+        {
+          "id": "yeonan-seonmang/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 15밀리미터 이하",
+          "meshMinMm": 15,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "exceptions": [
+            "멸치 포획 목적 세목망은 미적용"
+          ],
+          "sourceId": "annex-8",
+          "rawText": "연안선망어업: 15밀리미터 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "yeonan-tongbal",
+      "name": "연안통발어업",
+      "group": "coastal",
+      "definition": {
+        "rawText": "1척의 무동력어선 또는 동력어선으로 통발을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제22조제1항제3호"
+      },
+      "note": "어구실명제·어구보증금 대상. 어업자협약·자율관리공동체 소속 시 낙지 전용 통발 5,000개 완화(별표 9: 낙지 외 방류 의무, 일반 통발 병용 금지, 지정 장소 판매 의무)",
+      "rules": [
+        {
+          "id": "yeonan-tongbal/ge-tongbal",
+          "kind": "gearUseBan",
+          "label": "게를 포획할 목적의 통발 사용금지",
+          "species": "게",
+          "gear": "통발(게 목적)",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 5,
+                "day": 1
+              },
+              "end": {
+                "month": 7,
+                "day": 31
+              }
+            },
+            {
+              "kind": "annual",
+              "start": {
+                "month": 10,
+                "day": 31
+              },
+              "end": {
+                "month": 12,
+                "day": 31
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju10"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "게를 포획할 목적의 통발 사용금지, 5. 1.~7. 31., 10. 31.~12. 31., 주10)의 해역"
+        },
+        {
+          "id": "yeonan-tongbal/daege",
+          "kind": "speciesCaptureBan",
+          "label": "대게포획금지·대게류·붉은대게류 통발 사용금지",
+          "species": "대게",
+          "gear": "대게류·붉은대게류 통발",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju11"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "대게포획금지, 대게류·붉은대게류 통발 사용금지, 연중, 주11)의 해역"
+        },
+        {
+          "id": "yeonan-tongbal/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 붕장어·낙지·새우류 22밀리미터·대게 150밀리미터·붉은대게 125밀리미터·그 밖의 어종 35밀리미터 이하",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "깔때기 입구 둘레 140mm 이상 통발 사용금지(붕장어·낙지·새우류). 붉은대게 규격은 동해 한정",
+          "sourceId": "annex-8",
+          "rawText": "연안통발어업: 붕장어·낙지·새우류 22mm, 대게 150mm, 붉은대게 125mm, 그 밖의 어종 35mm 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "yeonan-jomang",
+      "name": "연안조망어업",
+      "group": "coastal",
+      "definition": {
+        "rawText": "1척의 동력어선으로 망 입구에 막대를 설치한 조망을 사용하여 새우류(젓새우는 제외한다)를 포획하는 어업",
+        "articleRef": "시행령 제22조제1항제4호"
+      },
+      "targetLimit": {
+        "species": "새우류",
+        "excludeNote": "젓새우는 제외",
+        "rawText": "조망을 사용하여 새우류(젓새우는 제외한다)를 포획하는 어업"
+      },
+      "bycatch": {
+        "allowed": true,
+        "allowedPercent": 30,
+        "rawText": "혼획 허용 수산동물: 그 밖의 수산동물, 허용 범위: 총어획량의 30퍼센트 이내 (별표 3)"
+      },
+      "rules": [
+        {
+          "id": "yeonan-jomang/closure",
+          "kind": "fullClosure",
+          "label": "조업금지",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 10,
+                "day": 1
+              },
+              "end": {
+                "month": 4,
+                "day": 30
+              }
+            }
+          ],
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 10월 1일부터 다음 해 4월 30일까지"
+        },
+        {
+          "id": "yeonan-jomang/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 25밀리미터 이하",
+          "meshMinMm": 25,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "자루그물 부분에는 2중 이상 어망 사용금지",
+          "sourceId": "annex-8",
+          "rawText": "연안조망어업: 25밀리미터 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "yeonan-seoninmang",
+      "name": "연안선인망어업",
+      "group": "coastal",
+      "definition": {
+        "rawText": "2척의 동력어선으로 인망(저인망은 제외한다)을 사용하여 멸치를 포획하는 어업 (강원특별자치도만 해당한다)",
+        "articleRef": "시행령 제22조제1항제5호"
+      },
+      "targetLimit": {
+        "species": "멸치",
+        "regionNote": "강원특별자치도만 해당",
+        "rawText": "인망(저인망은 제외한다)을 사용하여 멸치를 포획하는 어업(강원특별자치도만 해당한다)"
+      },
+      "rules": [
+        {
+          "id": "yeonan-seoninmang/closure",
+          "kind": "fullClosure",
+          "label": "조업금지",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 1,
+                "day": 1
+              },
+              "end": {
+                "month": 9,
+                "day": 30
+              }
+            }
+          ],
+          "note": "사실상 10~12월만 조업 가능",
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 1월 1일부터 9월 30일까지"
+        },
+        {
+          "id": "yeonan-seoninmang/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 15밀리미터 이하",
+          "meshMinMm": 15,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "exceptions": [
+            "멸치 포획 목적 세목망은 미적용"
+          ],
+          "sourceId": "annex-8",
+          "rawText": "연안선인망어업: 15밀리미터 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "yeonan-jamang",
+      "name": "연안자망어업",
+      "group": "coastal",
+      "definition": {
+        "rawText": "1척의 무동력어선 또는 동력어선으로 유자망 또는 고정자망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제22조제1항제6호"
+      },
+      "note": "어구실명제 대상 어업(시행령 제46조)",
+      "rules": [
+        {
+          "id": "yeonan-jamang/ppeotchim",
+          "kind": "gearFormBan",
+          "label": "뻗침대를 붙인 자망 사용금지",
+          "gear": "뻗침대 자망",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ppeotchimdae-nationwide"
+          ],
+          "exceptions": [
+            "인천·경기·전남광주통합특별시 해역은 제외"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "뻗침대를 붙인 자망 사용금지, 연중, 인천·경기·전남 해역을 제외한 전국해역"
+        },
+        {
+          "id": "yeonan-jamang/semokmang",
+          "kind": "gearUseBan",
+          "label": "세목망으로 된 어망 사용금지",
+          "gear": "세목망",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 5,
+                "day": 16
+              },
+              "end": {
+                "month": 6,
+                "day": 15
+              }
+            }
+          ],
+          "regionVariants": [
+            {
+              "sidos": [
+                "sido:incheon",
+                "sido:gyeonggi",
+                "sido:chungnam",
+                "sido:jeonbuk"
+              ],
+              "periods": [
+                {
+                  "kind": "annual",
+                  "start": {
+                    "month": 7,
+                    "day": 1
+                  },
+                  "end": {
+                    "month": 7,
+                    "day": 31
+                  }
+                }
+              ]
+            },
+            {
+              "sidos": [
+                "sido:jeonnam"
+              ],
+              "periods": [
+                {
+                  "kind": "annual",
+                  "start": {
+                    "month": 7,
+                    "day": 1
+                  },
+                  "end": {
+                    "month": 7,
+                    "day": 31
+                  }
+                },
+                {
+                  "kind": "annual",
+                  "start": {
+                    "month": 8,
+                    "day": 1
+                  },
+                  "end": {
+                    "month": 8,
+                    "day": 31
+                  }
+                }
+              ],
+              "note": "영광군·신안군은 7월. 전남 해역에서 뻗침대+세목망 조합은 8. 1.~8. 31."
+            }
+          ],
+          "sourceId": "annex-7",
+          "rawText": "세목망으로 된 어망 사용금지, 5. 16.~6. 15. (서해안은 7월, 전남 뻗침대+세목망은 8월)"
+        },
+        {
+          "id": "yeonan-jamang/myeolchi",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주8)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 4,
+                "day": 1
+              },
+              "end": {
+                "month": 6,
+                "day": 30
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju8"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 4월 1일부터 6월 30일까지, 주8)의 해역"
+        },
+        {
+          "id": "yeonan-jamang/mesh",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 삼치 100밀리미터·조기류 50밀리미터·대게 240밀리미터 이하",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "2중 이상 자망 중 내망 그물코 40mm 이하 사용금지",
+          "exceptions": [
+            "멸치·젓새우·곤쟁이 포획 목적 세목망은 미적용"
+          ],
+          "sourceId": "annex-8",
+          "rawText": "연안자망어업: 삼치 100mm, 조기류 50mm, 대게 240mm 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "yeonan-deulmang",
+      "name": "연안들망어업",
+      "group": "coastal",
+      "definition": {
+        "rawText": "1척의 무동력어선 또는 동력어선으로 초망 또는 들망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제22조제1항제7호"
+      },
+      "rules": [
+        {
+          "id": "yeonan-deulmang/myeolchi-allyear",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주6)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "zoneIds": [
+            "ju6"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 연중, 주6)의 해역"
+        },
+        {
+          "id": "yeonan-deulmang/myeolchi-spring",
+          "kind": "speciesCaptureBan",
+          "label": "멸치포획금지 — 주9)를 제외한 주7)의 해역",
+          "species": "멸치",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 4,
+                "day": 1
+              },
+              "end": {
+                "month": 6,
+                "day": 30
+              }
+            }
+          ],
+          "zoneIds": [
+            "ju7"
+          ],
+          "exceptions": [
+            "주9)의 해역은 제외"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "멸치포획금지, 4월 1일부터 6월 30일까지, 주9)의 해역을 제외한 주7)의 해역"
+        }
+      ]
+    },
+    {
+      "id": "yeonan-bokhap-nakksi",
+      "name": "낚시어업 (연안복합)",
+      "group": "coastal",
+      "definition": {
+        "rawText": "주낙·외줄낚시 또는 채낚기로 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제22조제1항제8호가목"
+      },
+      "rules": []
+    },
+    {
+      "id": "yeonan-bokhap-muneo-danji",
+      "name": "문어단지어업 (연안복합)",
+      "group": "coastal",
+      "definition": {
+        "rawText": "문어단지를 사용하여 문어류를 포획하는 어업(강원특별자치도는 제외한다)",
+        "articleRef": "시행령 제22조제1항제8호나목"
+      },
+      "targetLimit": {
+        "species": "문어류",
+        "regionNote": "강원특별자치도는 제외",
+        "rawText": "문어단지를 사용하여 문어류를 포획하는 어업(강원특별자치도는 제외한다)"
+      },
+      "rules": []
+    },
+    {
+      "id": "yeonan-bokhap-son-kkongchi",
+      "name": "손꽁치어업 (연안복합)",
+      "group": "coastal",
+      "definition": {
+        "rawText": "손으로 꽁치를 포획하는 어업",
+        "articleRef": "시행령 제22조제1항제8호다목"
+      },
+      "targetLimit": {
+        "species": "꽁치",
+        "rawText": "손으로 꽁치를 포획하는 어업 (어구 없이 손으로만)"
+      },
+      "rules": []
+    },
+    {
+      "id": "yeonan-bokhap-paeryu-kkeopjil",
+      "name": "패류껍질어업 (연안복합)",
+      "group": "coastal",
+      "definition": {
+        "rawText": "소라·피뿔고둥 등 패류껍질 또는 토기, 합성수지 등으로 제작된 패류 껍질 모양의 어구를 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제22조제1항제8호라목"
+      },
+      "rules": []
+    },
+    {
+      "id": "yeonan-bokhap-paeryu-mikkimang",
+      "name": "패류미끼망어업 (연안복합)",
+      "group": "coastal",
+      "definition": {
+        "rawText": "그물로 만든 주머니에 미끼를 넣어 패류를 포획하는 어업(인천·경기·충남·전북 및 전남광주통합특별시의 목포시·영광군·함평군·무안군·신안군의 해안만 해당된다)",
+        "articleRef": "시행령 제22조제1항제8호마목"
+      },
+      "targetLimit": {
+        "species": "패류",
+        "regionNote": "인천·경기·충남·전북 및 전남 목포·영광·함평·무안·신안 해안만 해당",
+        "rawText": "그물로 만든 주머니에 미끼를 넣어 패류를 포획하는 어업"
+      },
+      "rules": []
+    },
+    {
+      "id": "guhoek-geon-ganmang",
+      "name": "건간망어업",
+      "group": "demarcated",
+      "definition": {
+        "rawText": "건간망을 설치하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제23조제1항제1호"
+      },
+      "rules": []
+    },
+    {
+      "id": "guhoek-geonmang",
+      "name": "건망어업",
+      "group": "demarcated",
+      "definition": {
+        "rawText": "건망을 설치하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제23조제1항제2호"
+      },
+      "rules": []
+    },
+    {
+      "id": "guhoek-deulmang",
+      "name": "들망어업 (구획)",
+      "group": "demarcated",
+      "definition": {
+        "rawText": "들망을 설치하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제23조제1항제3호"
+      },
+      "rules": []
+    },
+    {
+      "id": "guhoek-seoninmang",
+      "name": "선인망어업 (구획)",
+      "group": "demarcated",
+      "definition": {
+        "rawText": "선인망을 설치하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제23조제1항제4호"
+      },
+      "rules": []
+    },
+    {
+      "id": "guhoek-seungmangryu",
+      "name": "승망류어업",
+      "group": "demarcated",
+      "definition": {
+        "rawText": "호망·승망·각망을 설치하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제23조제1항제5호"
+      },
+      "rules": []
+    },
+    {
+      "id": "guhoek-anggangmang",
+      "name": "안강망어업 (구획)",
+      "group": "demarcated",
+      "definition": {
+        "rawText": "안강망을 설치하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제23조제1항제6호"
+      },
+      "rules": []
+    },
+    {
+      "id": "guhoek-jangmangryu",
+      "name": "장망류어업",
+      "group": "demarcated",
+      "definition": {
+        "rawText": "주목망·장망·낭장망을 설치하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제23조제1항제7호"
+      },
+      "rules": [
+        {
+          "id": "guhoek-jangmangryu/closure",
+          "kind": "fullClosure",
+          "label": "조업금지(장망을 사용하는 어업은 제외)",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 5,
+                "day": 1
+              },
+              "end": {
+                "month": 5,
+                "day": 31
+              }
+            }
+          ],
+          "regionVariants": [
+            {
+              "sidos": [
+                "sido:incheon",
+                "sido:gyeonggi",
+                "sido:chungnam",
+                "sido:jeonbuk",
+                "sido:jeonnam"
+              ],
+              "periods": [
+                {
+                  "kind": "annual",
+                  "start": {
+                    "month": 7,
+                    "day": 1
+                  },
+                  "end": {
+                    "month": 7,
+                    "day": 31
+                  }
+                }
+              ],
+              "note": "전남은 영광군·신안군만 해당"
+            }
+          ],
+          "exceptions": [
+            "장망을 사용하는 어업은 제외"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "장망류어업(장망 사용 어업 제외): 조업금지, 5월 1일부터 5월 31일까지 (서해안은 7월)"
+        },
+        {
+          "id": "guhoek-jangmangryu/mesh-yeonggwang",
+          "kind": "meshLimit",
+          "label": "사용금지 그물코의 규격: 25밀리미터 이하(영광군 주목망)",
+          "meshMinMm": 25,
+          "periods": [
+            {
+              "kind": "allYear"
+            }
+          ],
+          "note": "영광군에서 주목망을 사용하는 어업에 적용",
+          "sourceId": "annex-8",
+          "rawText": "장망류어업(영광군에서 주목망을 사용하는 어업): 25밀리미터 이하 사용금지"
+        }
+      ]
+    },
+    {
+      "id": "guhoek-jiinmang",
+      "name": "지인망어업",
+      "group": "demarcated",
+      "definition": {
+        "rawText": "지인망을 사용하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제23조제1항제8호"
+      },
+      "rules": []
+    },
+    {
+      "id": "guhoek-haeseonmang",
+      "name": "해선망어업",
+      "group": "demarcated",
+      "definition": {
+        "rawText": "해선망을 설치하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제23조제1항제9호"
+      },
+      "rules": [
+        {
+          "id": "guhoek-haeseonmang/closure",
+          "kind": "fullClosure",
+          "label": "조업금지",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 5,
+                "day": 16
+              },
+              "end": {
+                "month": 6,
+                "day": 15
+              }
+            }
+          ],
+          "regionVariants": [
+            {
+              "sidos": [
+                "sido:incheon",
+                "sido:gyeonggi",
+                "sido:chungnam",
+                "sido:jeonnam"
+              ],
+              "periods": [
+                {
+                  "kind": "annual",
+                  "start": {
+                    "month": 7,
+                    "day": 1
+                  },
+                  "end": {
+                    "month": 7,
+                    "day": 31
+                  }
+                }
+              ],
+              "note": "전남은 영광군·신안군만 해당 (전북은 변형 없음)"
+            }
+          ],
+          "sourceId": "annex-7",
+          "rawText": "조업금지, 5월 16일부터 6월 15일까지. 다만, 인천·경기·충남·영광·신안은 7월 1일부터 7월 31일까지"
+        }
+      ]
+    },
+    {
+      "id": "saewoo-jomang",
+      "name": "새우조망어업",
+      "group": "demarcated",
+      "definition": {
+        "rawText": "망 입구에 막대를 설치한 조망을 사용하여 새우류를 포획하는 어업",
+        "articleRef": "시행령 제23조제1항제10호"
+      },
+      "targetLimit": {
+        "species": "새우류",
+        "rawText": "조망을 사용하여 새우류를 포획하는 어업"
+      },
+      "bycatch": {
+        "allowed": true,
+        "allowedPercent": 30,
+        "rawText": "혼획 허용 수산동물: 그 밖의 수산동물, 허용 범위: 총어획량의 30퍼센트 이내 (별표 3)"
+      },
+      "note": "허가구역 외 수역 조업 시 어업정지 처분을 과징금으로 갈음할 수 없음(시행령 제69조제2항제3호)",
+      "rules": [
+        {
+          "id": "saewoo-jomang/closure-gyeongnam",
+          "kind": "fullClosure",
+          "label": "새우조망으로 새우포획을 허용한 경우 외 사용금지 — 경남 통영·거제·사천·남해 연안해역",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 10,
+                "day": 1
+              },
+              "end": {
+                "month": 4,
+                "day": 30
+              }
+            }
+          ],
+          "note": "허용기간은 5. 1.~9. 30. — 금지기간은 그 여집합으로 도출한 해석. 시장·군수·구청장이 국립수산과학원장과 협의해 10개월 이내 조업기간을 따로 고시하면 그에 따름",
+          "exceptions": [
+            "경상남도 통영시·거제시·사천시·남해군 연안해역 한정"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "새우조망으로 새우포획을 허용한 경우 외 사용금지, 5월 1일부터 9월 30일까지(허용), 경남 통영·거제·사천·남해 연안해역"
+        },
+        {
+          "id": "saewoo-jomang/closure-jeonnam",
+          "kind": "fullClosure",
+          "label": "새우조망으로 새우포획을 허용한 경우 외 사용금지 — 전남 여수·장흥·강진·고흥·완도·진도·해남 연안해역",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 9,
+                "day": 1
+              },
+              "end": {
+                "month": 6,
+                "day": 30
+              }
+            }
+          ],
+          "note": "허용기간은 7. 1.~8. 31. — 금지기간은 그 여집합으로 도출한 해석. 지자체 고시로 조정 가능",
+          "exceptions": [
+            "전남광주통합특별시 여수·장흥·강진·고흥·완도·진도·해남 연안해역 한정"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "새우조망으로 새우포획을 허용한 경우 외 사용금지, 7월 1일부터 8월 31일까지(허용), 전남 여수·장흥·강진·고흥·완도·진도·해남 연안해역"
+        }
+      ]
+    },
+    {
+      "id": "silbaemjangeo-anggangmang",
+      "name": "실뱀장어안강망어업",
+      "group": "demarcated",
+      "definition": {
+        "rawText": "안강망을 사용하여 실뱀장어를 포획하는 어업",
+        "articleRef": "시행령 제23조제1항제11호"
+      },
+      "targetLimit": {
+        "species": "실뱀장어",
+        "rawText": "안강망을 사용하여 실뱀장어를 포획하는 어업"
+      },
+      "note": "어구실명제 대상 어업(시행령 제46조)",
+      "rules": []
+    },
+    {
+      "id": "paeryu-hyeongmang",
+      "name": "패류형망어업",
+      "group": "demarcated",
+      "definition": {
+        "rawText": "형망을 사용하여 패류를 포획하는 어업",
+        "articleRef": "시행령 제23조제1항제12호"
+      },
+      "targetLimit": {
+        "species": "패류",
+        "rawText": "형망을 사용하여 패류를 포획하는 어업"
+      },
+      "bycatch": {
+        "allowed": true,
+        "allowedPercent": 10,
+        "rawText": "혼획 허용 수산동물: 그 밖의 수산동물, 허용 범위: 총어획량의 10퍼센트 이내 (별표 3)"
+      },
+      "rules": [
+        {
+          "id": "paeryu-hyeongmang/hyeongmang-ban",
+          "kind": "gearUseBan",
+          "label": "형망 사용금지",
+          "gear": "형망",
+          "periods": [
+            {
+              "kind": "annual",
+              "start": {
+                "month": 6,
+                "day": 1
+              },
+              "end": {
+                "month": 7,
+                "day": 31
+              }
+            }
+          ],
+          "exceptions": [
+            "법 제27조에 따라 관리선으로 지정·승인받은 어선이 해당 어장에서 사용하는 형망은 제외"
+          ],
+          "sourceId": "annex-7",
+          "rawText": "형망사용금지, 6월 1일부터 7월 31일까지"
+        }
+      ]
+    },
+    {
+      "id": "daehyeong-jeongchimang",
+      "name": "대형정치망어업",
+      "group": "licensed",
+      "definition": {
+        "rawText": "10헥타르 이상의 구획된 수면에 낙망류·승망류·죽방렴 등 정치성 어구를 설치하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제6조제1호 (법 제7조제1항제1호)"
+      },
+      "note": "정치망어업권 보호를 위한 보호구역 있음(법 제28조): 보호구역 내 어망 사용 어업, 불빛·음향 유인 어업, 통발·연승 설치, 끌어구류·잠수기 사용 어업 금지",
+      "rules": []
+    },
+    {
+      "id": "junghyeong-jeongchimang",
+      "name": "중형정치망어업",
+      "group": "licensed",
+      "definition": {
+        "rawText": "5헥타르 이상 10헥타르 미만의 구획된 수면에 정치성 어구를 설치하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제6조제2호"
+      },
+      "rules": []
+    },
+    {
+      "id": "sohyeong-jeongchimang",
+      "name": "소형정치망어업",
+      "group": "licensed",
+      "definition": {
+        "rawText": "5헥타르 미만의 구획된 수면에 정치성 어구를 설치하여 수산동물을 포획하는 어업",
+        "articleRef": "시행령 제6조제3호"
+      },
+      "rules": []
+    },
+    {
+      "id": "maeul-eoeop",
+      "name": "마을어업",
+      "group": "licensed",
+      "definition": {
+        "rawText": "일정한 지역에 거주하는 어업인이 해안에 연접한 일정 수심(평균수심 5m, 강원·경북·제주는 7m) 이내의 수면을 구획하여 패류·해조류 또는 정착성 수산동물을 관리·조성하여 포획·채취하는 어업",
+        "articleRef": "법 제7조제1항제2호, 시행령 제7조"
+      },
+      "rules": []
+    },
+    {
+      "id": "najam",
+      "name": "나잠어업",
+      "group": "reported",
+      "definition": {
+        "rawText": "산소공급장치 없이 잠수한 후 낫·호미·칼 등을 사용하여 패류, 해조류, 그 밖의 정착성 수산동식물을 포획·채취하는 어업",
+        "articleRef": "시행령 제26조제1항제1호"
+      },
+      "rules": []
+    },
+    {
+      "id": "maenson",
+      "name": "맨손어업",
+      "group": "reported",
+      "definition": {
+        "rawText": "손으로 낫·호미·해조틀이 및 갈고리류 등을 사용하여 수산동식물을 포획·채취하는 어업",
+        "articleRef": "시행령 제26조제1항제2호"
+      },
+      "rules": []
+    }
+  ]
+}

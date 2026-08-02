@@ -1,0 +1,51 @@
+[
+  {
+    "id": "law-20940",
+    "name": "수산업법 (법률 제20940호)",
+    "kind": "law",
+    "effectiveOn": "2026-04-23",
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%88%98%EC%82%B0%EC%97%85%EB%B2%95",
+    "note": "원문 추출본: references/text/fisheries-act-law-20260423-extracted-20260801.txt"
+  },
+  {
+    "id": "decree-36423",
+    "name": "수산업법 시행령 (대통령령 제36423호)",
+    "kind": "decree",
+    "effectiveOn": "2026-07-01",
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%88%98%EC%82%B0%EC%97%85%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9",
+    "note": "제21~23조(어업의 종류), 제24조(혼획), 제31조(조업구역), 제38조(어구의 규모등)"
+  },
+  {
+    "id": "annex-2",
+    "name": "시행령 별표 2 — 어업별 어구의 규모·형태·재질·사용량 및 사용방법",
+    "kind": "annex",
+    "note": "원문 추출본: references/text/annexes/decree-annex-2-extracted-20260801.txt"
+  },
+  {
+    "id": "annex-3",
+    "name": "시행령 별표 3 — 혼획이 허용되는 어업의 종류와 수산동물 및 혼획의 허용 범위",
+    "kind": "annex"
+  },
+  {
+    "id": "annex-5",
+    "name": "시행령 별표 5 — 근해어업의 조업구역 및 허가정수",
+    "kind": "annex"
+  },
+  {
+    "id": "annex-7",
+    "name": "시행령 별표 7 — 어업의 종류별 어구사용의 금지구역 및 금지기간",
+    "kind": "annex",
+    "note": "해역 정의 주1)~주17)은 좌표열. 부도(지도)는 원문 참조"
+  },
+  {
+    "id": "annex-8",
+    "name": "시행령 별표 8 — 어업의 종류별 그물코 규격의 제한",
+    "kind": "annex"
+  },
+  {
+    "id": "annex-9",
+    "name": "시행령 별표 9 — 어업자협약 등 어구의 규모등의 제한 범위",
+    "kind": "annex",
+    "note": "연안통발 낙지 어구 완화 조건 (낙지 외 방류 의무 등)"
+  }
+]
