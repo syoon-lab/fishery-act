@@ -185,8 +185,10 @@ export type ZonePolygon = z.infer<typeof ZonePolygonSchema>;
 
 export const ZoneSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
-  /** "주6) 진해만 일대" */
+  /** 일반인용 표시 명칭: "진해만 일대" (주 번호는 ref에) */
   name: z.string().min(1),
+  /** 법령상 참조 번호: "별표 7 주6)" — 상세 화면에서만 표시 */
+  ref: z.string().optional(),
   shortDesc: z.string().min(1),
   /** 좌표 원문 등 상세 */
   rawText: z.string().optional(),

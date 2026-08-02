@@ -53,7 +53,14 @@ function ZoneDetail({ zoneId }: { zoneId: string }) {
         >
           ← 뒤로
         </button>
-        <h1 className="text-lg font-bold text-slate-900">{zone.name}</h1>
+        <div className="flex flex-wrap items-baseline gap-2">
+          <h1 className="text-lg font-bold text-slate-900">{zone.name}</h1>
+          {zone.ref && (
+            <span className="text-xs text-slate-500 border border-slate-200 rounded px-1.5 py-0.5">
+              {zone.ref}
+            </span>
+          )}
+        </div>
         <p className="text-sm text-slate-600">{zone.shortDesc}</p>
         {zone.mapRef && <p className="text-xs text-slate-400">원문 도면: {zone.mapRef}</p>}
       </div>

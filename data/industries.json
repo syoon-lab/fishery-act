@@ -319,7 +319,7 @@
         {
           "id": "donghaegu-oekkeuri/closure-ju1",
           "kind": "fullClosure",
-          "label": "조업금지 — 주1)의 해역",
+          "label": "조업금지",
           "periods": [
             {
               "kind": "allYear"
@@ -379,7 +379,7 @@
         {
           "id": "seonamhaegu-oekkeuri/closure-ju1",
           "kind": "fullClosure",
-          "label": "조업금지 — 주1)의 해역",
+          "label": "조업금지",
           "periods": [
             {
               "kind": "allYear"
@@ -442,7 +442,7 @@
         {
           "id": "seonamhaegu-ssangkkeuri/closure-ju1",
           "kind": "fullClosure",
-          "label": "조업금지 — 주1)의 해역",
+          "label": "조업금지",
           "periods": [
             {
               "kind": "allYear"
@@ -618,7 +618,7 @@
         {
           "id": "daehyeong-seonmang/myeolchi-allyear",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주4)·주5)·주6)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
@@ -636,7 +636,7 @@
         {
           "id": "daehyeong-seonmang/myeolchi-spring",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주7)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
@@ -660,7 +660,7 @@
         {
           "id": "daehyeong-seonmang/closure",
           "kind": "fullClosure",
-          "label": "조업금지 — 제주 본도 주위 7천4백미터 이내·주15)·주16)의 해역",
+          "label": "조업금지",
           "periods": [
             {
               "kind": "allYear"
@@ -753,7 +753,7 @@
         {
           "id": "sohyeong-seonmang/myeolchi-allyear",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주4)·주5)·주6)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
@@ -771,7 +771,7 @@
         {
           "id": "sohyeong-seonmang/myeolchi-spring",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주7)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
@@ -795,7 +795,7 @@
         {
           "id": "sohyeong-seonmang/closure",
           "kind": "fullClosure",
-          "label": "조업금지 — 제주 본도 주위 7천4백미터 이내·주15)·주16)의 해역",
+          "label": "조업금지",
           "periods": [
             {
               "kind": "allYear"
@@ -961,7 +961,7 @@
         {
           "id": "geunhae-jamang/myeolchi",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주8)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
@@ -1264,7 +1264,7 @@
         {
           "id": "geunhae-jaridom-deulmang/myeolchi-allyear",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주6)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
@@ -1280,7 +1280,7 @@
         {
           "id": "geunhae-jaridom-deulmang/myeolchi-spring",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주9)를 제외한 주7)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
@@ -1677,7 +1677,7 @@
         {
           "id": "giseon-gwonhyeonmang/myeolchi-spring",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주7)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
@@ -1990,7 +1990,7 @@
         {
           "id": "yeonan-seonmang/myeolchi-allyear",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주5)·주6)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
@@ -2007,7 +2007,7 @@
         {
           "id": "yeonan-seonmang/myeolchi-spring",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주7)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
@@ -2338,7 +2338,7 @@
         {
           "id": "yeonan-jamang/myeolchi",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주8)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
@@ -2389,7 +2389,7 @@
         {
           "id": "yeonan-deulmang/myeolchi-allyear",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주6)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
@@ -2405,7 +2405,7 @@
         {
           "id": "yeonan-deulmang/myeolchi-spring",
           "kind": "speciesCaptureBan",
-          "label": "멸치포획금지 — 주9)를 제외한 주7)의 해역",
+          "label": "멸치포획금지",
           "species": "멸치",
           "periods": [
             {
