@@ -67,13 +67,11 @@ export default function RuleCard({ judged, showPenalty }: { judged: JudgedRule; 
             return (
               <span key={zid}>
                 {i > 0 && ", "}
-                {hasMap ? (
-                  <Link to={`/zones/${zid}`} className="text-accent hover:underline">
-                    {zone?.name ?? zid} 🗺
-                  </Link>
-                ) : (
-                  <span>{zone?.name ?? zid}</span>
-                )}
+                {/* 모든 해역은 설명 페이지로 연결, 🗺는 좌표 정의(지도 제공) 해역만 */}
+                <Link to={`/zones/${zid}`} className="text-accent hover:underline">
+                  {zone?.name ?? zid}
+                  {hasMap ? " 🗺" : ""}
+                </Link>
               </span>
             );
           })}

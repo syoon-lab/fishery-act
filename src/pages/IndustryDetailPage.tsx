@@ -2,11 +2,50 @@ import { Link, useLocation, useParams } from "react-router";
 import RuleCard from "@/components/RuleCard";
 import YearTimeline from "@/components/YearTimeline";
 import { GROUP_LABEL } from "@/domain/display";
-import { judgeIndustry } from "@/domain/judge";
+import { judgeIndustry, type JudgedRule } from "@/domain/judge";
 import { toIsoDate } from "@/domain/date";
 import { getIndustry, getRegion, groupRulesFor } from "@/domain/repository";
 import { useFilters } from "@/hooks/useFilters";
 import NotFoundPage from "./NotFoundPage";
+
+const GROUP_COMMON_LABEL: Record<string, string> = {
+  offshore: "모든 근해어업",
+  coastal: "모든 연안어업",
+  demarcated: "구획어업 중 모든 어업",
+};
+
+/**
+ * 규칙 목록 — 이 어업 고유 규정을 먼저, 별표 7의 "모든 ○○어업" 공통 규정은
+ * 구분 문구와 함께 뒤에 배치한다 (목적어종과 무관하게 일괄 적용되는 규정임을 명시).
+ */
+function RuleList({
+  items,
+  group,
+  showPenalty,
+}: {
+  items: JudgedRule[];
+  group: string;
+  showPenalty?: boolean;
+}) {
+  const own = items.filter((j) => !j.fromGroup);
+  const common = items.filter((j) => j.fromGroup);
+  return (
+    <>
+      {own.map((jr) => (
+        <RuleCard key={jr.rule.id} judged={jr} showPenalty={showPenalty} />
+      ))}
+      {common.length > 0 && (
+        <p className="text-xs text-slate-400 pt-1">
+          ▾ 아래는 별표 7에서 “{GROUP_COMMON_LABEL[group] ?? "모든 어업"}”에 일괄 적용하는 공통
+          규정입니다 — 이 어업의 포획 대상과 무관하게 적용됩니다.
+        </p>
+      )}
+      {common.map((jr) => (
+        <RuleCard key={jr.rule.id} judged={jr} showPenalty={showPenalty} />
+      ))}
+    </>
+  );
+}
 
 /** 어업 상세 = 판정 화면. 조회 화면에서 넘어온 기준일·지역(URL)을 그대로 적용한다. */
 export default function IndustryDetailPage() {
@@ -120,18 +159,14 @@ export default function IndustryDetailPage() {
       {j.activeBans.length > 0 && (
         <section className="space-y-2">
           <h2 className="text-sm font-bold text-amber-800">적용 중인 금지 ({j.activeBans.length}건)</h2>
-          {j.activeBans.map((jr) => (
-            <RuleCard key={jr.rule.id} judged={jr} showPenalty />
-          ))}
+          <RuleList items={j.activeBans} group={industry.group} showPenalty />
         </section>
       )}
 
       {j.standing.length > 0 && (
         <section className="space-y-2">
           <h2 className="text-sm font-bold text-slate-600">연중 적용되는 제한 ({j.standing.length}건)</h2>
-          {j.standing.map((jr) => (
-            <RuleCard key={jr.rule.id} judged={jr} showPenalty />
-          ))}
+          <RuleList items={j.standing} group={industry.group} showPenalty />
         </section>
       )}
 
@@ -141,9 +176,7 @@ export default function IndustryDetailPage() {
             이 날짜에 적용되지 않는 기간 규정 ({j.inactive.length}건) — 펼쳐보기
           </summary>
           <div className="space-y-2 mt-2">
-            {j.inactive.map((jr) => (
-              <RuleCard key={jr.rule.id} judged={jr} showPenalty />
-            ))}
+            <RuleList items={j.inactive} group={industry.group} showPenalty />
           </div>
         </details>
       )}
