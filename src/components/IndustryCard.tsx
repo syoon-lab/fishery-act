@@ -55,10 +55,13 @@ export default function IndustryCard({ industry, judgement: j }: Props) {
   return (
     <Link
       to={{ pathname: `/industries/${industry.id}`, search: location.search }}
-      className="block bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:border-slate-300 transition-all p-4"
+      className="block h-full bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md hover:border-slate-300 transition-all p-4"
     >
       <div className="flex items-start justify-between gap-2">
-        <h3 className="text-base font-bold text-slate-900 min-w-0">{industry.name}</h3>
+        {/* 긴 어업명은 한 줄 말줄임 — 카드 형태를 균일하게 유지 (전체 이름은 툴팁) */}
+        <h3 className="text-base font-bold text-slate-900 min-w-0 truncate" title={industry.name}>
+          {industry.name}
+        </h3>
         <StatusBadge j={j} />
       </div>
 
