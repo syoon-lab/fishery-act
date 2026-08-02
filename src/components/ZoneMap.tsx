@@ -36,7 +36,14 @@ export default function ZoneMap({ zone }: { zone: Zone }) {
       layer.addTo(map);
     }
     map.fitBounds(bounds.pad(0.2));
+    // 컨테이너 크기가 잡히기 전에 초기화되면 축척이 어긋난다 —
+    // 레이아웃 확정 후 크기를 재계산하고 다시 맞춘다 (프로덕션 CSS 로드 타이밍 대응)
+    const raf = requestAnimationFrame(() => {
+      map.invalidateSize();
+      map.fitBounds(bounds.pad(0.2));
+    });
     return () => {
+      cancelAnimationFrame(raf);
       map.remove();
     };
   }, [zone]);
