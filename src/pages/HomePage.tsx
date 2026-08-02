@@ -127,7 +127,8 @@ export default function HomePage() {
             >
               {GROUP_LABEL[group]} ({items.length})
             </h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {/* 기본 1열을 명시하지 않으면 열 폭이 내용 크기(auto)로 잡혀 섹션마다 카드 폭이 달라진다 */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {items.map(({ industry, judgement }) => (
                 <IndustryCard key={industry.id} industry={industry} judgement={judgement} />
               ))}
