@@ -1,5 +1,7 @@
 # fishery-act — 수산업법 조업 규제 조회
 
+> https://fishery-act.vercel.app
+
 「수산업법」·「수산업법 시행령」의 어업(업종)별 포획·조업 규제를 정리·조회하는 웹앱.
 어종 중심 서비스인 [fishery-regulation](https://fishery-regulation.vercel.app)(수산자원관리법 체계:
 금어기·금지체장·금지 대상)과 축이 달라 별도로 분리했다 (2026-08-01 결정).
@@ -14,6 +16,9 @@ npm test             # Vitest (판정·데이터 게이트)
 npm run lint         # tsc + 데이터 검증
 npm run build        # lint + test 통과 시에만 빌드
 ```
+
+배포는 `main` 푸시 시 Vercel이 자동 수행한다. 빌드 게이트(타입·데이터·테스트)가
+Vercel 빌드에서 그대로 실행되므로, 게이트를 통과하지 못한 커밋은 배포되지 않는다.
 
 ## 앱 구조
 
